@@ -797,7 +797,12 @@ section.main__content-actors .actors-title h2 {
     gap: 25px;
 }
 
+.swiper-btn-next {
+    cursor: pointer;
+}
+
 .swiper-btn-prev {
+    cursor: pointer;
     transform: rotate(-180deg);
 }
 
