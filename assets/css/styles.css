@@ -160,6 +160,7 @@ h5 {
 .libra {
     font-family: 'Libra Serif Modern Regular', Arial;
     letter-spacing: 0.04em;
+    font-weight: 400;
 }
 
 b {
@@ -448,6 +449,7 @@ main.main .play-btn {
     cursor: pointer;
 }
 
+
 .main .performance__title-text {
     font-size: 60px;
     line-height: 68px;
@@ -510,7 +512,7 @@ main.main .main__title button {
     background-color: #252525;
     position: relative;
     z-index: 1;
-    color: #fff;
+    color: #F9F9F9;
 }
 
 .main__description .description-img {
@@ -610,6 +612,7 @@ section.main__content .main__content-order .order__title {
     top: -207px;
     right: 305px;
     transform: translate(0, -50%);
+    pointer-events: none;
 }
 
 .main__content-timeline .container {
@@ -644,6 +647,11 @@ section.main__content .main__content-order .order__title {
 
 .time__line-item  .check {
     gap: 20px;
+}
+
+.time__line-item  .check h2 {
+    font-weight: 400;
+    letter-spacing: 0.04em;
 }
 
 
@@ -751,11 +759,28 @@ section.main__content-actors .actors-title h2 {
     line-height: 56px;
 }
 
+.actor-slide {
+    letter-spacing: 0.04em;
+}
+
 .swiper-slide h2 {
     margin-top: 16px;
     margin-bottom: 16px;
     color: #252525;
     font-weight: 400;
+}
+
+.swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal {
+    height: 1px;
+}
+
+.swiper-scrollbar {
+    background-color: #909090;
+}
+
+.swiper-scrollbar-drag {
+    height: 2px;
+    background-color: #252525;
 }
 
 .swiper-slide .line {
@@ -824,11 +849,21 @@ footer.footer .footer-content {
     gap: 20px;
 }
 
+.footer .footer__contact .icons svg {
+    cursor: pointer;
+}
+
 .footer .links {
     font-size: 18px;
     line-height: 24px;
     color: #909090;
     letter-spacing: 0.04em;
+    cursor: pointer;
+    padding-bottom: 32px;
+}
+
+.footer .links a:hover {
+    color: #252525;
 }
 
 
@@ -885,6 +920,7 @@ section.technologies.group6329 {
 .groupTT {
     background-image: url(../icons/TT__.svg);
     background-repeat: no-repeat;
+    z-index: -1;
 }
 
 .main > .groupTT {
