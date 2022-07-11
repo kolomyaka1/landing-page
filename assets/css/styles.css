@@ -428,6 +428,10 @@ header .container button.orange span {
     gap: 60px;
 }
 
+.navigation__list .navigation__item {
+    letter-spacing: 0.04em;
+}
+
 /* Main */
 
 main {
@@ -481,12 +485,15 @@ main.main .main__title button {
     position: absolute;
     top: 0;
     right: 0;
+    pointer-events: none;
 }
 
 .bg-house-1 {
     position: absolute;
     top: 50px;
     right: 316px;
+    pointer-events: none;
+    z-index: -1;
 }
 
 .bg-phone {
@@ -541,6 +548,7 @@ main.main .main__title button {
 
 .main__description .main__description-text p {
     max-width: 552px;
+    letter-spacing: 0.02em;
 }
 
 /* section technologies */
@@ -613,6 +621,22 @@ section.main__content .main__content-order .order__title {
     right: 305px;
     transform: translate(0, -50%);
     pointer-events: none;
+}
+
+.main__content-timeline .pp-3 {
+    position: absolute;
+    pointer-events: none;
+    top: -160px;
+    left: 680px;
+    transform: translate(0, -50%);
+}
+
+.main__content-timeline .pp-4 {
+    position: absolute;
+    pointer-events: none;
+    top: -161px;
+    right: -31px;
+    transform: translate(0, -50%);
 }
 
 .main__content-timeline .container {
@@ -935,9 +959,475 @@ section.technologies.group6329 {
     height: 100%;
     background-position: 35% 250px;
 }
+
+/* Media */
+
+/* Tablet version */
+
+@media (max-width: 1440px) {
+    .container {
+        max-width: 1074px;
+    }
+
+    .main .performance__title-text {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    main.main .main__title button {
+        padding: 10px 0;
+        max-width: 200px;
+    }
+
+    .play-btn {
+        display: none;
+    }
+
+    .bg-phone {
+        width: 291px;
+        height: 621px;
+        right: 160px;
+        top:210px;
+    } 
+
+    .bg-phone svg {
+        width: 291px;
+        height: 621px;
+    }
+
+    .bg-phone-content img {
+        width: 271px;
+        height: 600px;
+    }
+    
+    .main__description .main__description-title {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .main__description .main__description-text p:first-child {
+        margin-left: 182px;
+    }
+
+    .main__description .main__description-text p {
+        font-size: 18px;
+        line-height: 24px;
+        max-width: 400px;
+    }
+
+    section.main__content .main__content-order {
+        padding-top: 80px;
+    }
+
+    section.main__content .main__content-order .order__title {
+        margin-top: 60px;
+        justify-content: center;
+    }
+
+    section.main__content .main__content-order .gap24 h2 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .main__content-order p {
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        margin: 0 auto 60px;
+    }
+
+    .main__content-order button {
+        max-width: 200px;
+        padding: 10px 0;
+    }
+
+    .main__content-order button {
+        margin: 0 auto 356px;
+    }
+
+    .main__content-timeline .bg-image {
+        max-height: 266px;
+        top: -327px;
+    }
+
+    .main__content-timeline .pp-1 {
+        max-width: 193px;
+        max-height: 289px;
+        top: -145px;
+        left: 253px;
+    }
+
+    .main__content-timeline .pp-2 {
+        max-width: 244px;
+        max-height: 326px;
+        top: -90px;
+        right: 212px;
+    }
+
+    .main__content-timeline .pp-3 {
+        max-width: 114px;
+        max-height: 188px;
+        top: -144px;
+        left: 556px;
+    }
+
+    .main__content-timeline .pp-4 {
+        max-width: 209px;
+        max-height: 209px;
+        top: -146px;
+        right: -49px;
+    }
+
+    .time__line-item .check h2 {
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+    }
+    .time__line-item {
+        top: 30px !important;
+    }
+
+    .device__description h2 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .device__description ul li span {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .device__description ul li p {
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+    }
+
+    .device__description ul li p:nth-child(1) {
+        display: none;
+    }
+
+    .device__description ul {
+        gap: 60px;
+    }
+
+    .main__content-video .video-template img {
+        max-width: 537px;
+        max-height: 302px;
+    }
+
+    .main__content-video .video-template {
+        min-width: 537px;
+        padding-top: 302px;
+    }
+
+    .main__content-video h2 {
+        font-size: 40px;
+        line-height: 48px;
+        margin-top: 10px;
+        margin-bottom: 18px;
+        white-space: normal;
+    }
+
+    .main__content-video p {
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        margin-bottom: 32px;
+    }
+    .main__content-video button {
+        max-width: 200px;
+        padding: 10px 0;
+    }
+
+    section.main__content-actors .actors-title h2 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .swiper-slide h2 {
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: 0.02em;
+    }
+
+    .actor-slide p {
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.02em;
+    }
+
+    .swiper-slide .line {
+        max-width: 166px;
+        margin-bottom: 12px;
+    }
+
+    .swiper {
+        padding-bottom: 60px;
+    }
+    
+    section.main__content-actors {
+        margin-bottom: 100px;
+    }
+
+    .footer .footer__contact span {
+        letter-spacing: 0.02em;
+    }
+
+    .footer .links {
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+    }
+
+    .main__content-timeline .bg-image {
+        background: url(../icons/TT__.svg) 271px 35px no-repeat,
+        url(../icons/Group\ 6327.svg) 453px 29px no-repeat,
+        url(../icons/Group\ 126.svg) right 379px top 46px no-repeat,
+        url(../icons/Group\ 6326.svg) right 79px top 31px no-repeat
+    }
+
+    .main__content-timeline {
+        margin-bottom: 222px;
+    }
+}
  
+/* Mobile */
 
+@media (max-width: 960px) {
+    .container {
+        max-width: 600px;
+    }
+    
+    header .container button.orange {
+        max-width: 83px;
+        padding: 3px 14px;
+    }
 
+    header .container button.orange span {
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.04em;
+    }
 
+    .navigation__list {
+        display: none;
+    }
 
+    .bg-house-1 {
+        top:420px;
+    }
+    
+    main.main .main__title button {
+        margin-bottom: 460px;
+    }
 
+    .bg-house-2 {
+        top: 420px;
+    }
+
+    main.main .main__title {
+        margin-top: 100px;
+    }
+
+    .bg-phone {
+        width: 335px;
+        height: 592px;
+        right: 10%;
+        transform: translate(-50%, 0);
+        z-index: 10;
+        top: 550px;
+    }
+
+    .bg-phone svg {
+        width: 335px;
+        height: 592px;
+    }
+
+    .bg-phone-content img {
+        width: 265px;
+        height: 570px;
+    }
+
+    .bg-phone-content img {
+        left: 7px;
+    }
+    
+    .main__content-video .container {
+        flex-direction: column;
+    }
+
+    .bg-phone-content img {
+        left: 35px;
+    }
+
+    .main .performance__title-text {
+        font-size: 42px;
+        line-height: 42px;
+        max-width: 350px;
+        margin: 0 auto;
+        max-height: 84px;
+        text-align: center;
+    }
+
+    main.main .main__title h2 sup {
+        position: absolute;
+        top: 0;
+    }
+
+    main.main .main__title p {
+        text-align: center;
+        max-width: 450px;
+        margin: 24px auto 32px;
+    }
+    
+    main.main .main__title button {
+        max-width: none;
+        font-size: 20px;
+        line-height: 20px;
+        padding: 15px 0;
+    }
+
+    .main__description .description-img {
+        top: 150px;
+    }
+
+    .main__description .main__description-title {
+        padding-top: 350px;
+    }
+
+    .main__description .main__description-text {
+        flex-direction: column;
+    }
+
+    .main__description .main__description-text p:first-child {
+        margin-left: 0;
+    }
+
+    .main__description .main__description-text p {
+        max-width: none;
+    }
+
+    section.main__content .main__content-order .order__title {
+        flex-direction: column;
+    }
+
+    section.main__content .main__content-order .gap24 h2 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    section.main__content .main__content-order {
+        padding-top: 60px;
+    }
+
+    .main__content-order p {
+        max-width: 450px;
+    }
+
+    .main__content-order button {
+        max-width: 450px;
+        font-size: 20px;
+        line-height: 20px;
+        padding: 15px 0;
+    }
+
+    .main__content-timeline .bg-image {
+        top: -220px
+    }
+
+    .main__content-timeline .pp-1 {
+         max-width: 88px;
+         max-height: 133px;
+         left: 120px;
+         top: -110px;
+    }
+
+    .main__content-timeline .pp-2 {
+        max-width: 112px;
+        max-height: 149px;
+        right: 160px;
+    }
+
+    .main__content-timeline .pp-3 {
+        max-width: 43px;
+        max-height: 71px;
+        top: -105px;
+        left: 50%;
+    }
+
+    .main__content-timeline .pp-4 {
+        max-width: 79px;
+        max-height: 79px;
+        top: -110px;
+        right: 0;
+    }
+
+    .device__description ul {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+
+    .main__content-device svg {
+        position: absolute;
+    }
+
+    .main__content-device .container {
+        align-items: flex-start;
+    }
+
+    .device__description h2 {
+        margin-left: 200px;
+    }
+
+    .main__content-device {
+        margin-bottom: 60px;
+    }
+
+    .main__content-video .video-template img {
+        min-width: 600px;
+    }
+
+    .main__content-video .container {
+        gap: 24px;
+    }
+
+    .main__content-video h2 {
+        text-align: center;
+    }
+
+    .main__content-video p {
+        text-align: center;
+    }
+
+    .main__content-video button {
+        max-width: none;
+        font-size: 20px;
+        line-height: 20px;
+        padding: 15px 0;
+    }
+
+    section.main__content-actors {
+        margin-top: 60px;
+    }
+
+    section.main__content-actors .actors-title h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    footer.footer .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .footer__contact {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 32px;
+    }
+
+    .footer .links {
+        text-align: center;
+    }
+}
