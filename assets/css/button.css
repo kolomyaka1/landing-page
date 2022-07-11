@@ -1,0 +1,127 @@
+/* Buttons */
+
+button,
+.button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 32px;
+  border: none;
+  outline: none;
+  font-size: var(--super-paragraph-font-size);
+  line-height: var(--super-paragraph-line-height);
+  cursor: pointer;
+  font-weight: var(--regular-font-weight);
+  letter-spacing: 1px;
+  font-family: var(--body-font);
+}
+
+/* Fill */
+
+button:disabled {
+  background-color: var(--white);
+  border: 1px solid var(--gray-light);
+  cursor: default;
+}
+
+button.fill:disabled {
+  background-color: var(--gray);
+  cursor: default;
+  color: var(--white);
+}
+
+button.orange,
+.button.orange {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+button.gray,
+.button.gray {
+  background-color: var(--gray);
+  color: var(--white);
+}
+
+button.red,
+.button.red {
+  background-color: var(--red);
+  color: var(--white);
+}
+
+
+
+button.share,
+.button.share {
+  gap: 4px;
+  padding: 10px 40px;
+  color: var(--white);
+}
+
+
+/* Not Fill */
+
+button.outline-black,
+.button.outline-black {
+  border: 1px solid var(--black);
+  background-color: var(--white);
+  color: var(--black);
+  padding: 9px 24px;
+}
+
+button.outline-orange,
+.button.outline-orange {
+  border: 1px solid var(--orange);
+  background-color: var(--white);
+  color: var(--orange);
+  padding: 9px 24px;
+}
+
+button.outline-gray,
+.button.outline-gray {
+  border: 1px solid var(--gray);
+  background-color: var(--white);
+  color: var(--gray);
+  padding: 9px 24px;
+
+}
+
+button.small {
+  padding: 6px 24px;
+  max-width: 175px;
+  font-size: var(--sub-paragraph-font-size);
+  line-height: var(--sub-paragraph-line-height);
+}
+
+button.medium {
+    padding: 10px 48px;
+    white-space: nowrap;
+}
+
+button.small.center {
+  margin: 0 auto;
+}
+
+button.play,
+.button.play {
+  gap: 11px;
+}
+
+button.download,
+.button.download {
+  gap: 4px;
+}
+
+/* Tag */
+
+.tag {
+  background-color: var(--black);
+  padding: 2px 6px;
+  color: var(--white);
+  font-weight: var(--regular-font-weight);
+  font-size: 10px;
+  line-height: 12px;
+  cursor: pointer;
+  border-radius: 16px;
+
+}
