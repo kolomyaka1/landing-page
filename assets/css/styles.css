@@ -494,8 +494,8 @@ main.main .main__title h2 sup {
     background-color: #252525;
     color: #fff;
     font-size: 12px;
-    line-height: 12px;
-    padding: 3px 10px 3px 13px;
+    line-height: 18px;
+    padding: 0px 10px 0px 13px;
     vertical-align: 45px;
     font-family: 'Noah', Arial;
 }
@@ -564,7 +564,7 @@ main.main .main__title button {
     position: relative;
     font-size: 48px;
     line-height: 56px;
-    max-width: 833px;
+    max-width: 863px;
     padding-top: 140px;
     margin-bottom: 100px;
 }
@@ -940,7 +940,7 @@ footer.footer .footer-content {
 }
 
 main.group6239 {
-    background-position: 950px 50px;
+    background-position: 950px 90px;
 }
 
 .bg-house-2 img {
@@ -965,7 +965,7 @@ section.technologies.group6329 {
 }
 
 .main__title.group6327 {
-    background-position: 800px 12px;
+    background-position: 800px 135px;
 }
 
 /* Group 6325 */
@@ -1025,6 +1025,10 @@ section.technologies.group6329 {
         right: 120px;
         top:180px;
     } 
+    
+    .main__description .main__description-title {
+        max-width: 721px;
+    }
 
     main.main .main__title p {
         letter-spacing: 0.02em;
@@ -1731,6 +1735,10 @@ section.technologies.group6329 {
         max-height: 24px;
     }
 
+    section.main__content-actors {
+       
+    }
+
     .swiper-slide h2 {
         font-size: 16px;
         line-height: 20px;        
@@ -1861,5 +1869,36 @@ section.technologies.group6329 {
         background: url(../icons/TT__.svg) 51px 10px no-repeat,
         url(../icons/Group\ 6327.svg) 453px 0px no-repeat,
         url(../icons/Group\ 126.svg) right 329px top 16px no-repeat;
+    }
+
+    .main > .groupTT {
+        background-image: none;
+    }
+
+    button {
+        font-size: 16px !important;
+    }
+
+    .swiper-slide h2 {
+        margin-bottom: 8px;
+    }
+
+    .swiper-slide .line {
+        margin-bottom: 8px;
+    }
+
+    footer.footer .footer-magi-title {
+        padding: 8px;
+    }
+    
+    footer.footer .footer-magi-title a {
+        max-height: 22px;
+    }
+
+    .footer .links {
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        gap: 12px;
     }
 }
