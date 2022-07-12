@@ -498,7 +498,7 @@ main.main .main__title h2 sup {
     padding: 0px 10px 0px 10px;
     font-family: 'Noah', Arial;
     position: absolute;
-    top: 0;
+    top: -10px;
     max-width: 40px;
 }
 
@@ -545,7 +545,7 @@ main.main .main__title button {
     position: absolute;
     z-index: 2;
     top: 17px;
-    left: 9px;
+    left: 8px;
 }
 
 
@@ -746,7 +746,7 @@ section.main__content .main__content-order .order__title {
 .device__description ul li .vertical-line {
     height: 60px;
     width: 1px;
-    border: 1px solid #252525;
+    border-left: 1px solid #252525;
 }
 
 .device__description ul li p {
@@ -1066,7 +1066,7 @@ section.technologies.group6329 {
     }
 
     .bg-phone-content img {
-        width: 271px;
+        width: 275px;
         height: 600px;
     }
     
@@ -1281,6 +1281,10 @@ section.technologies.group6329 {
         url(../icons/Group\ 6239.svg) right 83px bottom 442px no-repeat,
         url(../icons/TT__.svg) left 55% bottom 400px no-repeat;
     }
+
+    .main__content.technologies .bg-techonlogies {
+        height: 741px;
+    }
 }
  
 /* Mobile */
@@ -1364,11 +1368,6 @@ section.technologies.group6329 {
         margin: 0 auto;
         max-height: 84px;
         text-align: center;
-    }
-
-    main.main .main__title h2 sup {
-        position: absolute;
-        top: 0;
     }
 
     main.main .main__title p {
@@ -1475,6 +1474,7 @@ section.technologies.group6329 {
 
     .device__description h2 {
         margin-left: 200px;
+        max-width: 280px;
     }
 
     .main__content-device {
@@ -1541,6 +1541,14 @@ section.technologies.group6329 {
         max-height: 88px;
         right: -10px !important;
         top: 300px !important;
+    }
+
+    .main__content.technologies .bg-techonlogies {
+        height: 512px;
+    }
+
+    .main__description .main__description-title {
+        margin-bottom: 60px;
     }
 
 }
@@ -1869,8 +1877,7 @@ section.technologies.group6329 {
     }
 
     .main__content-timeline .bg-image {
-        background: url(../icons/TT__.svg) 51px 10px no-repeat,
-        url(../icons/Group\ 6327.svg) 453px 0px no-repeat,
+        background: url(../icons/Group\ 6327.svg) 453px 0px no-repeat,
         url(../icons/Group\ 126.svg) right 329px top 16px no-repeat;
     }
 
@@ -1904,4 +1911,10 @@ section.technologies.group6329 {
         text-align: center;
         gap: 12px;
     }
+
+    .main__content.technologies .bg-techonlogies {
+        height: 453px;
+    }
+    
+
 }
