@@ -1390,6 +1390,7 @@ section.technologies.group6329 {
 
     .main__description .main__description-title {
         padding-top: 350px;
+        max-width: 550px;
     }
 
     .main__description .main__description-text {
