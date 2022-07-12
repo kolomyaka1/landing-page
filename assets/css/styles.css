@@ -1461,7 +1461,7 @@ section.technologies.group6329 {
 
     .main__description .description-img {
         max-width: 380px;
-        top: 160px;
+        top: 50px;
         left: -20px;
     }
 
@@ -1479,6 +1479,10 @@ section.technologies.group6329 {
         font-size: 40px;
         line-height: 40px;
     }
+
+    main.main .main__title {
+        margin-top: 50px;
+    }
  
     main.main .main__title p {
         font-size: 16px;
@@ -1488,7 +1492,7 @@ section.technologies.group6329 {
 
     main.main .main__title button {
         max-width: 311px;
-        margin: 0 auto 460px;
+        margin: 0 auto 420px;
         padding: 10px 0;
     }
 
@@ -1686,5 +1690,59 @@ section.technologies.group6329 {
 
     .main__content-order p {
         max-width: 343px;
+    }
+
+    .bg-house-1 {
+        right: 0px;
+        left: -36px;
+        top: 480px;
+    }
+
+    .bg-house-2 {
+        top: 470px;
+    }
+
+    .bg-house-1 img {
+        max-width: 350px;
+    }
+
+    .bg-house-2 img {
+        max-width: 330px;
+    }
+
+    .main__description .main__description-title {
+        padding-top: 210px;
+    }
+
+    .bg-phone.desktop--hide {
+        width: 235px;
+        height: 502px;
+    }
+
+    .bg-phone.desktop--hide svg {
+        width: 235px;
+        height: 502px;
+    }
+
+    .bg-phone-content img {
+        width: 225px;
+        height: 480px;
+        left: 7px;
+    }
+
+    .play-btn.desktop--hide {
+        right: -50px !important;
+        top: 280px !important;
+    }
+
+    main.main {
+        background: url(../icons/Group\ 6239.svg) 25px 437px no-repeat,
+        url(../icons/TT__.svg) right 30px top 437px no-repeat,
+        url(../icons/Group\ 6325.svg) right 20px top 350px no-repeat;
+    }
+
+    section.main__content .main__content-order {
+        background: url(../icons/Group\ 6239.svg)  25px  150px no-repeat,
+        url(../icons/Group\ 104.svg)  25px 350px no-repeat;
     }
 }
