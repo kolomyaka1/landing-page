@@ -1051,7 +1051,7 @@ section.technologies.group6329 {
     }
 
     .bg-house-2 img {
-        max-width: 440px;
+        max-width: 480px;
     }
 
     .bg-phone svg {
@@ -1120,15 +1120,6 @@ section.technologies.group6329 {
         max-height: 289px;
         top: -145px;
         left: 253px;
-    }
-
-    section.technologies.group6329 {
-        background: url(../icons/Group\ 6239.svg) 150px 150px no-repeat, 
-        url(../icons/Group\ 6325.svg) 80% 150px no-repeat,
-        url(../icons/TT__.svg) 90% 650px no-repeat,
-        url(../icons/Group\ 6330.svg) 185px 1350px no-repeat,
-        url(../icons/Group\ 6239.svg) right 83px bottom 442px no-repeat,
-        url(../icons/TT__.svg) left 55% bottom 400px no-repeat;
     }
 
     .main__content-timeline .pp-2 {
@@ -1275,6 +1266,15 @@ section.technologies.group6329 {
     .main__content-timeline {
         margin-bottom: 222px;
     }
+
+    section.technologies.group6329 {
+        background: url(../icons/Group\ 6239.svg) 150px 150px no-repeat, 
+        url(../icons/Group\ 6325.svg) 80% 150px no-repeat,
+        url(../icons/TT__.svg) 90% 650px no-repeat,
+        url(../icons/Group\ 6330.svg) 185px 1350px no-repeat,
+        url(../icons/Group\ 6239.svg) right 83px bottom 442px no-repeat,
+        url(../icons/TT__.svg) left 55% bottom 400px no-repeat;
+    }
 }
  
 /* Mobile */
@@ -1303,7 +1303,8 @@ section.technologies.group6329 {
     }
 
     .bg-house-1 {
-        top:420px;
+        top:470px;
+        right: 400px;
     }
     
     main.main .main__title button {
@@ -1311,7 +1312,7 @@ section.technologies.group6329 {
     }
 
     .bg-house-2 {
-        top: 420px;
+        top: 470px;
     }
 
     main.main .main__title {
