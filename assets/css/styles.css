@@ -1122,6 +1122,15 @@ section.technologies.group6329 {
         left: 253px;
     }
 
+    section.technologies.group6329 {
+        background: url(../icons/Group\ 6239.svg) 150px 150px no-repeat, 
+        url(../icons/Group\ 6325.svg) 80% 150px no-repeat,
+        url(../icons/TT__.svg) 90% 650px no-repeat,
+        url(../icons/Group\ 6330.svg) 185px 1350px no-repeat,
+        url(../icons/Group\ 6239.svg) right 83px bottom 442px no-repeat,
+        url(../icons/TT__.svg) left 55% bottom 400px no-repeat;
+    }
+
     .main__content-timeline .pp-2 {
         max-width: 244px;
         max-height: 326px;
