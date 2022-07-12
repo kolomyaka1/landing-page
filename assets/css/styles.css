@@ -960,6 +960,10 @@ section.technologies.group6329 {
     background-position: 35% 250px;
 }
 
+.desktop--hide {
+    display: none;
+}
+
 /* Media */
 
 /* Tablet version */
@@ -1230,6 +1234,7 @@ section.technologies.group6329 {
     }
 
     .bg-phone {
+        display: none;
         width: 335px;
         height: 592px;
         right: 10%;
@@ -1429,5 +1434,253 @@ section.technologies.group6329 {
 
     .footer .links {
         text-align: center;
+    }
+    .desktop--hide {
+        display: block;
+    }
+    .bg-phone.desktop--hide {
+        top: -370px;
+        left: 50%;
+    }
+
+    .play-btn.desktop--hide {
+        max-width: 88px;
+        max-height: 88px;
+        right: -10px !important;
+        top: 300px !important;
+    }
+
+}
+
+@media (max-width: 660px) {
+
+
+    .container {
+        max-width: 343px;
+    }
+
+    .main__description .description-img {
+        max-width: 380px;
+        top: 160px;
+        left: -20px;
+    }
+
+    .device__description h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .main__content-video .video-template img {
+        max-width: 343px;
+        min-width: auto;
+    }
+
+    .main .performance__title-text {
+        font-size: 40px;
+        line-height: 40px;
+    }
+ 
+    main.main .main__title p {
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+    }
+
+    main.main .main__title button {
+        max-width: 311px;
+        margin: 0 auto 460px;
+        padding: 10px 0;
+    }
+
+    .main__description .main__description-title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .main__description .main__description-text p {
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+    }
+
+    .main__description .main__description-text {
+        gap: 24px;
+        padding-bottom: 60px;
+    }
+
+    section.main__content .main__content-order .order__title {
+        margin-bottom: 36px;
+    }
+
+    .main__content-order p {
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+    }
+
+    .main__content-order button {
+        max-width: 311px;
+        padding: 10px 0;
+        margin: 0 auto 250px;
+    }
+
+    .check svg {
+        max-width: 24px;
+        max-height: 24px;
+    }
+
+    .main__content-timeline .time-line {
+        max-width: 343px;
+    }
+    
+    .time__line-item {
+        max-width: 77px;
+    }
+
+    .main__content-timeline .bg-image {
+        top: -160px;
+    }
+
+    .main__content-timeline .pp-1 {
+        top: -80px;
+        left: 60px;
+    }
+
+    .main__content-timeline .pp-2 {
+        right: 65px;
+    }
+
+    .main__content-timeline .pp-3 {
+        top: -80px;
+        left: 45%;
+    }
+
+    .main__content-timeline .pp-4 {
+        top: -80px;
+        right: -30px;
+    }
+
+    .main__content-device svg {
+        max-width: 90px;
+        max-height: 90px;
+    }
+
+    .device__description h2 {
+        margin-left: 111px;
+    }
+
+    .time__line-item .check h2 {
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.04em;
+    }
+    .time__line-item {
+        top: 20px !important;
+    }
+
+    .device__description ul li p {
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+    }
+
+    .device__description ul li span {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .device__description ul li .vertical-line {
+        height: 40px;
+    }
+
+    .main__content-video .video-template {
+        padding-top: 193px;
+        min-width: auto;
+        max-width: 343px;
+    }
+
+    .main__content-video h2 {
+        font-size: 24px;
+        line-height: 32px;
+        margin-top: 0;
+    }
+
+    .main__content-video p {
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+    }
+
+    .main__content-video button {
+        max-width: 311px;
+        padding: 10px 0;
+        margin: 0 auto;
+    }
+
+    .swiper-btn-prev {
+        max-width: 24px;
+        max-height: 24px;
+    }
+
+    .swiper-btn-next {
+        max-width: 24px;
+        max-height: 24px;
+    }
+
+    section.main__content-actors {
+        background-image: url(../icons/Group\ 6239.svg);
+        background-repeat: no-repeat;
+        background-position: 50% 0px;
+    }
+
+    .swiper-slide h2 {
+        font-size: 16px;
+        line-height: 20px;        
+    }
+
+    .actor-slide p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .swiper-slide .line {
+        max-width: 163px;
+    }
+
+    .swiper {
+        padding-bottom: 40px;
+    }
+
+    section.main__content-actors {
+        margin-bottom: 80px;
+    }
+
+    footer.footer .footer-magi-title span {
+        font-size: 12px;
+        line-height: 14px;
+        font-weight: 500;
+    }
+
+    footer.footer .footer-magi-title {
+        margin-bottom: 28px;
+    }
+
+    .footer-content svg {
+        max-width: 24px;
+        max-height: 24px;
+    }
+    
+    .footer .footer__contact span {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .footer .footer__contact {
+        gap: 32px;
+        padding-bottom: 28px;
+    }
+
+    .footer .line {
+        margin-bottom: 28px;
     }
 }
