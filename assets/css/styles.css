@@ -1688,6 +1688,10 @@ section.main__content-actors .performance__additional-roles .roles.second {
         margin-top: 0;
     }
 
+    footer.footer .footer-content {
+        padding-top: 0;
+    }
+
 }
 
 @media (max-width: 660px) {
