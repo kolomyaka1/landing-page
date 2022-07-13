@@ -510,8 +510,8 @@ main.main .main__title p {
 }
 
 main.main .main__title button {
-    max-width: 255px;
-    padding: 15px 0;
+    max-width: 289px;
+    padding: 12px 0;
     margin-bottom: 112px;
 }
 
@@ -622,9 +622,9 @@ section.main__content .main__content-order .order__title {
 }
 
 .main__content-order button {
-    max-width: 255px;
+    max-width: 289px;
     margin: 0 auto 466px;
-    padding: 15px 0;
+    padding: 7px 0;
 }
 
 .main__content-timeline {
@@ -798,8 +798,8 @@ section.main__content .main__content-order .order__title {
 }
 
 .main__content-video button {
-    max-width: 255px;
-    padding: 15px 0;
+    max-width: 289px;
+    padding: 12px 0;
 }
 
 /* Actors */
@@ -1084,7 +1084,7 @@ section.main__content-actors .performance__additional-roles .roles.second {
 
     main.main .main__title button {
         padding: 10px 0;
-        max-width: 200px;
+        max-width: 250px;
         margin-bottom: 98px;
     }
 
@@ -1175,7 +1175,7 @@ section.main__content-actors .performance__additional-roles .roles.second {
     }
 
     .main__content-order button {
-        max-width: 200px;
+        max-width: 250px;
         padding: 10px 0;
     }
 
@@ -1285,7 +1285,7 @@ section.main__content-actors .performance__additional-roles .roles.second {
         margin-bottom: 32px;
     }
     .main__content-video button {
-        max-width: 200px;
+        max-width: 250px;
         padding: 10px 0;
     }
 
@@ -1536,9 +1536,7 @@ section.main__content-actors .performance__additional-roles .roles.second {
 
     .main__content-order button {
         max-width: 450px;
-        font-size: 20px;
-        line-height: 20px;
-        padding: 15px 0;
+        padding: 7px 0;
     }
 
     .main__content-timeline .bg-image {
@@ -1616,9 +1614,7 @@ section.main__content-actors .performance__additional-roles .roles.second {
 
     .main__content-video button {
         max-width: none;
-        font-size: 20px;
-        line-height: 20px;
-        padding: 15px 0;
+        padding: 7px 0;
     }
 
     section.main__content-actors {
@@ -1740,7 +1736,7 @@ section.main__content-actors .performance__additional-roles .roles.second {
     main.main .main__title button {
         max-width: 311px;
         margin: 0 auto 460px;
-        padding: 10px 0;
+        padding: 7px 0;
     }
 
     .main__description .main__description-title {
@@ -1772,7 +1768,7 @@ section.main__content-actors .performance__additional-roles .roles.second {
 
     .main__content-order button {
         max-width: 311px;
-        padding: 10px 0;
+        padding: 7px 0;
         margin: 0 auto 250px;
     }
 
@@ -1889,7 +1885,7 @@ section.main__content-actors .performance__additional-roles .roles.second {
 
     .main__content-video button {
         max-width: 311px;
-        padding: 10px 0;
+        padding: 7px 0;
         margin: 0 auto;
     }
 
@@ -1943,7 +1939,7 @@ section.main__content-actors .performance__additional-roles .roles.second {
     .bg-house-1 {
         right: 0px;
         left: -36px;
-        top: 520px;
+        top: 525px;
     }
 
     .bg-house-2 {
@@ -1999,7 +1995,7 @@ section.main__content-actors .performance__additional-roles .roles.second {
     }
 
     section.technologies.group6329 {
-        background: url(../icons/Group\ 6239.svg) 330px 220px no-repeat, 
+        background: url(../icons/Group\ 6239.svg) 430px 220px no-repeat, 
         url(../icons/Group\ 6325.svg) 85% 120px no-repeat,
         url(../icons/TT__.svg) 90% 650px no-repeat,
         url(../icons/Group\ 6330.svg) 185px 1350px no-repeat,

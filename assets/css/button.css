@@ -18,6 +18,17 @@ button,
   z-index: 10;
 }
 
+button span.price {
+    background-color: #fff;
+    color: #252525;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    margin-left: 8px;
+    border-radius: 32px;
+    padding: 0 14px;
+}
+
 a {
     cursor: pointer;
 }
