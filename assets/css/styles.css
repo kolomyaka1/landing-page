@@ -912,11 +912,12 @@ footer.footer .footer-content {
 }
 
 .footer .footer__contact .icons {
-    gap: 20px;
 }
 
 .footer .footer__contact .icons svg {
     cursor: pointer;
+    margin-left: 12px;
+    margin-right: 12px;
 }
 
 .footer .links {
@@ -1598,7 +1599,11 @@ section.main__content-actors .performance__additional-roles .roles.second {
     }
 
     .main__content-video .container {
-        gap: 24px;
+        gap: 0px;
+    }
+
+    .main__content-video .container .video-template {
+        margin-bottom: 24px;
     }
 
     .main__content-video h2 {
@@ -1830,7 +1835,18 @@ section.main__content-actors .performance__additional-roles .roles.second {
     }
 
     .device__description ul {
-        gap: 16px;
+        gap: 0px;
+    }
+
+    .device__description ul li {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        gap: 0px;
+    }
+
+    .device__description ul li .vertical-line {
+        margin-left: 12px;
+        margin-right: 12px;
     }
 
     .main__content-video button {
