@@ -1016,6 +1016,10 @@ section.main__content-actors .actors-title h2 {
 
 /* Footer */
 
+footer {
+    padding-bottom: 32px;
+}
+
 footer.footer .footer-magi-title {
     background-color: #252525;
     color: #fff;
@@ -1910,7 +1914,6 @@ section.main__content-actors .performance__additional-roles .roles.second {
 
     .footer-content .flex.icons {
         order: 4;
-        padding-bottom: 28px;
     }
 
 
@@ -2281,5 +2284,8 @@ section.main__content-actors .performance__additional-roles .roles.second {
         height: 453px;
     }
     
+    footer {
+        padding-bottom: 28px;
+    }
 
 }
