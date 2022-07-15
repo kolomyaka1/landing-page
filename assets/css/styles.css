@@ -865,8 +865,6 @@ section.main__content .main__content-order .order__title {
         line-height: 24px;
         letter-spacing: 0.04em;
         font-weight: 700;
-        opacity: .7;
-        color: #000;
     }
 
     .questions__list .questions__item .dropdown-item {
@@ -886,8 +884,6 @@ section.main__content .main__content-order .order__title {
         font-size: 20px;
         line-height: 24px;
         letter-spacing: 0.04em;
-        color: #000;
-        opacity: .7;
     }
 
     @media (max-width: 1440px) {
